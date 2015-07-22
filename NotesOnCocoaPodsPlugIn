@@ -1,0 +1,35 @@
+To work on During July 22nd, 2015
+next meeting make sure that we save with the .yml file name and change the writing of the file so that it concludes the comments
+
+Notes from session on 
+def initialize(argv)
+    super
+
+     @config = Pod::Config.instance
+
+
+     @config = module::class.config
+
+
+super means we are invoking the super class method of the same name.
+
+:: the collins separate between classes and modules
+modules are organization units for other modules
+goal is to have a name space and are used for organizing our code.
+
+
+Modules allow us to re-use class names without having to know about all classes in all gems t o know which classes to use in your gems.
+
+class Label < Command
+
+if you inherit from a super class you inherit all of its methods. if you wanted to have the behavior of the old method you would call super.
+
+File.unlink(podfile_path)
+
+deletes previous podfile to test the line we need to use a rake install
+
+
+line 59 in label.rb podfile path..
+you want to delete podfile because 
+
+Start Practicing Git diff all the time before even doing a git status just to double check and see if everything is the way it should be.
