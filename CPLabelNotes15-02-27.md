@@ -36,13 +36,13 @@ referens to group $2
 
 regular expresions starts with a / and ends with a /
 
-#{pod} - the hash and the curly braces lets us grab the value in the variable pod 
 
-\\ 1# #{descripton} 
+(#{pod}) - the hash and the curly braces lets us grab the value in the variable pod 
 
-\\ 1 - means the first group 
-# - means a comment
-#{description} - use the value in var description 
+backslash backslash 1 - means the first group 
+
+only a hash (#) - means a comment
+a hash and curly brases (#{description}) - use the value in var description 
 \n - new line
 \1\\2 - first group and second group 
 
