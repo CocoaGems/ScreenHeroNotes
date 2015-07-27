@@ -60,9 +60,9 @@ regex.com is a web app for the same thing
 
 a = ‘hello’
 
-#{a} - means include the variable 
+(#{a}) - means include the variable 
 that is string interpolation 
-\(a) - does the same thing in swift 
+(backslash parenthesis variable) - does the same thing in swift 
 
 
 ## Other useful command line stuff
