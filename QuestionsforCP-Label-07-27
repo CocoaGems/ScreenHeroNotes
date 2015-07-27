@@ -1,0 +1,42 @@
+
+Questions to guide our CocoaPods Label Plugin Tutorial
+
+Q.1. What exactly is the binary notation inside of objects..all of the numbered data points ?
+
+A. Objects is a sub folder of Git. It is auto-created when you make a git version of your repo. 
+   1. We don't usually modify anthing inside of those folders so we just leave them as is.
+
+
+Q2. Also in the hooks file..
+Why is it so important to have example hook scripts ?
+
+
+Q3. Where did the format for the config file come from ?
+
+Q4.Do we need to edit the 'description' file to name the repository  in description ?
+
+
+Q.5 What does the .iml suffix for some folders indicate ? 
+Ruby Mine produces a .iml suffix - its an extension that compiles by using the RB IDE
+
+
+Q.6 Why are some files grey out in Atom ?
+
+The only files we care about are files darker in color and lib
+
+-gemfile includes dependencies
+-gem spec defines what's in it
+-go back to gem spec if you add a dependency to your gem.
+
+pod plugin create (CLI) Creates the whole dir. with gem spec and lib.
+
+
+Useful Commands to be aware of : 
+
+	
+
+man chmod 
+
+manual page will tell us what each symbol does 
+
+man ls 
