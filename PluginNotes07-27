@@ -1,0 +1,43 @@
+What exactly is the binary notation inside of objects..all of the numbered data points
+
+
+Also in the hooks file..
+Why is it so important to have example hook scripts ?
+
+Where did the format for the config file come from ?
+
+Do we need to edit the 'description' file to name the repository  in description ?
+
+fetch head 
+
+
+
+Ruby Mine produces a .iml suffix 
+index and orig head are also in binary
+
+What does the .iml stand for for 
+
+cocoapods-label.iml  
+workspace.xml  what is it for ? 
+
+we don't care about .idea
+
+the only files we care about are files darker in color and lib
+
+gemfile depend
+gem spec
+ defines what's in it.
+go back to gem spec if you add a dependency to your gem.
+
+pod plugin create (CLI) Creates the whole dir. with gem spec and lib.
+
+
+
+		chmod + test2.rb
+
+man chmod 
+
+manual page will tell us what each symbol does 
+or 
+
+man ls 
