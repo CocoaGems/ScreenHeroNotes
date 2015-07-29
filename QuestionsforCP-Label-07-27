@@ -30,13 +30,22 @@ The only files we care about are files darker in color and lib
 
 pod plugin create (CLI) Creates the whole dir. with gem spec and lib.
 
+A Regular Expression -- regexp break down:
+
+Great for searching and replacing 
+  ^(. *) - ContentfulDeliveryAPI 
+
+^ -beginning of the line, 
+(. -any character, 
+-whatever comes before the star can be their one or multiple times.
 
 Useful Commands to be aware of : 
 
 	
-
 man chmod 
 
 manual page will tell us what each symbol does 
 
 man ls 
+
+gsub (global substitute) replaces the first string with the second string
