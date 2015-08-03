@@ -1,0 +1,47 @@
+Start with a first point work on that then tackle the second one and see how far we can go ...
+
+
+As long as one pt can be worked on 
+
+The Bullet pts. need to be implemented from top to bottom 
+
+Filled in bp's are headlines
+unfilled ones are 
+concrete steps
+
+resolver class
+download class
+
+we need to decouple them
+
+
+how else could they communicate
+
+with a manifest file 
+
+without manifest file the resolver wouldn't really work.
+
+define what manifest file would look like
+
+the resolver determeins wether there even is a graph to see if they are compatible.
+
+Plugins you could have multiple ones that perform the same funcionality
+have more dynamic loading.
+
+Gems are more specific
+
+the plugin is also a gem that is specific to cocoa pods.
+
+We need to extract the resolver out cocoa pods core into its own gem.
+
+Tricky part: 
+once its no longer inside CP how does it communicates with -
+
+that's where the manifest comes in 
+Creating components that can communicate with one another.
+
+Once you change it the main CP wouldn't work anymore.
+Goal to have multiple implementations.
+
+How does the resolver communicate with the rest of CocoaPods ? 
+
