@@ -1,5 +1,29 @@
 Start with a first point work on that then tackle the second one and see how far we can go ...
 
+#2729 will become more interesting in the 2nd two parts
+Where you can use a tool other than xcode to build your project.
+
+Heres the link to Samuel's example of extraction and re-writing : 
+https://github.com/CocoaPods/CocoaPods/pull/2637
+
+
+
+Start with :
+
+Which pods are in the xcode project ?
+What is in the pods xcode project ?
+What does it consist of if we do a pod install ( what do we need to generate this) ?
+what does it need to be generated (list of pods that are part of the podfile + more information) ?
+How (already inside CP somewhere)can we get this info from the rest of CP ?
+What does the xcode plug in need to make it work ?
+
+Key:
+
+  What does it need?
+  What will it produce?
+
+
+
 
 As long as one pt can be worked on 
 
@@ -46,10 +70,4 @@ Goal to have multiple implementations.
 How does the resolver communicate with the rest of CocoaPods ? 
 
 We used to have a downlodader that didn't Cache.
-
-#2729 will become more interesting in the 2nd two parts
-Where you can use a tool other than xcode to build your project.
-
-Heres the link to Samuel's example of extraction and re-writing : 
-https://github.com/CocoaPods/CocoaPods/pull/2637
 
